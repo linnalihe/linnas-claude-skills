@@ -26,6 +26,15 @@
         "skills": [
           "./skills/react-nextjs-code-simplicity-reviewer"
         ]
+      },
+      {
+        "name": "python-venv-setup",
+        "description": "Setup a Python virtual environment using pyenv with the latest Python version.",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./skills/python-venv-setup"
+        ]
       }
     ]
   }
