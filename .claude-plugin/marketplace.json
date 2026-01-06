@@ -1,0 +1,31 @@
+{
+    "name": "linnas-claude-skills",
+    "owner": {
+      "name": "Linna Li",
+      "email": "linnaxxx@gmail.com"
+    },
+    "metadata": {
+      "description": "Linnas Claude Skills",
+      "version": "1.0.0"
+    },
+    "plugins": [
+      {
+        "name": "copywriting-conversion-reviewer",
+        "description": "Provide a review of the copywriting and conversion rate of the copy.",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./skills/copywriting-conversion-reviewer"
+        ]
+      },
+      {
+        "name": "react-nextjs-code-simplicity-reviewer",
+        "description": "Review the code for React/Next.js projects to identify unnecessary complexity.",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./skills/react-nextjs-code-simplicity-reviewer"
+        ]
+      }
+    ]
+  }
